@@ -1,0 +1,402 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    header {
+        height: 20vh;
+    }
+}
+
+.typewriter p {
+    color: wheat;
+    font-size: 40px;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@media only screen and (max-width: 200px) {
+    .typewriter p {
+        font-size: 10px;
+    }
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+.sec1 img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .sec1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sec1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sec1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sec1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sec1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sec1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .sec1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .sec1 {
+        font-size: 10px;
+    }
+}
+
+.sec3 img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .sec3 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sec3 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sec3 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sec3 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sec3 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sec3{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .sec3 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .sec3 {
+        font-size: 10px;
+    }
+}
+
+.sec5 iframe {
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .sec5 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sec5 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sec5 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sec5{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sec5{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sec5{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .sec5{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .sec5 {
+        font-size: 10px;
+    }
+}
+
+section {
+    padding: 50px;
+}
+@media only screen and (max-width: 900px) {
+    .section {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .section {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    .section {
+        padding: 10px;
+    }
+}
+section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+@media only screen and (max-width: 800px) {
+    .section h2{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    .section h2{
+        font-size:  10px;
+    }
+}
+section h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .sec2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .sec2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .sec2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sec2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .sec2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .sec2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .sec2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    .sec2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .sec4 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .sec4 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .sec4 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sec4{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .sec4 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .sec4 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .sec4 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    .sec4 {
+        font-size: 10px;
+    }
+}
+footer img{
+    width: 100%;
+}
+@media only screen and (max-width: 300px) {
+    footer {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    footer {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    footer {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    footer {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    footer {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    footer {
+        font-size: 10px;
+    }
+}
